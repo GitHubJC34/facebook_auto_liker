@@ -22,6 +22,7 @@ use_case = FacebookAutoLiker(driver)
 use_case.login('mon_email', 'mon_mdp')
 use_case.search_profile('profil_cible')
 use_case.auto_like(100, 0.5) # 100 likes avec 0.5 sec entre chaque
+```
 
 ### Fonctionnalités
 
