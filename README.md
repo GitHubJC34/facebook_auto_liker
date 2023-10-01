@@ -26,6 +26,10 @@ use_case.auto_like(100, 0.5) # 100 likes avec 0.5 sec entre chaque
 
 ### Fonctionnalités
 
-login(email, password) : se connecte à Facebook
-search_profile(profile_name) : recherche le profil cible
-auto_like(max_likes, delay) : like automatiquement les publications
+```python 
+login(email, password) #se connecte à Facebook
+
+search_profile(profile_name) #recherche le profil cible
+
+auto_like(max_likes, delay) #like automatiquement les publications
+``` 
